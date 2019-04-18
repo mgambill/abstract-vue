@@ -20,11 +20,12 @@
     "@vue/eslint-config-prettier": "^4.0.1",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
-    "eslint-plugin-vue": "^5.0.0",
+    "eslint-plugin-vue": "^5.2.2",
     "lint-staged": "^8.1.5",
-    "node-sass": "^4.9.0",
+    "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
-    "vue-template-compiler": "^2.5.21"
+    "vue-cli-plugin-pug": "^1.0.7",
+    "vue-template-compiler": "^2.6.10"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
@@ -34,5 +35,8 @@
       "vue-cli-service lint",
       "git add"
     ]
+  },
+  "prettier": {
+    "semi": false
   }
 }
