@@ -1,7 +1,15 @@
 <template lang="pug">
 #app
-  img(alt='Vue logo', src='./assets/logo.png')
-  HelloWorld(msg='Welcome to Your Vue.js App')
+  .navbar.navbar-expand-lg.navbar-dark
+    a.navbar-brand.text-light Example
+    button.navbar-toggler( type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation")
+      span.navbar-toggler-icon 
+    .collapse.navbar-collapse#navbarNavAltMarkup
+      .navbar-nav
+        router-link.nav-item.nav-link(to="/") Home
+        router-link.nav-item.nav-link(to="/About") About
+  .container-fluid
+    router-view
 </template>
 
 <script>
@@ -16,11 +24,15 @@ export default {
 </script>
 
 <style lang="scss">
+body {
+  background-color: #f6f6f6;
+}
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-  margin-top: 60px;
+}
+.navbar {
+  background-color: #35495e;
 }
 </style>

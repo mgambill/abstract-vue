@@ -8,13 +8,13 @@ A personal collection of Abstract (aka renderless components). Abstract componen
 - [ ] Abstract Expand : Expand and collapse 
   - [ ] Accordion 
   - [ ] Sidebar
+  - [ ] Tab
 - [ ] Abstract Dropdown : Any control that needs a dropdown menu
   - [ ] Dropdown menu
   - [ ] Used in Tag List (below)
 - [ ] Abstract List : Add, Remove list items from array
   - [ ] Tag List
   - [ ] Grid
-
 
 Inspiration: https://adamwathan.me/renderless-components-in-vuejs/
 
